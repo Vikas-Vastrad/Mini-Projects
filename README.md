@@ -6,20 +6,19 @@ Each project is built with a focus on clean code, responsive design, and practic
 A visually appealing landing page for an e-commerce website built using HTML and CSS.
 
 <h4>Features:</h4>
-Responsive design for mobile and desktop views
-Modern UI/UX elements
-Simple and clean layout
+<ul>
+  <li>Responsive design for mobile and desktop views.</li>
+  <li>Simple and clean layout.</li>
+</ul>
 <h4>Technologies Used: </h4>
-HTML
+HTML, 
 CSS
 <b><h2>2. Countdown Website</h2></b>  
 An interactive countdown timer application created with HTML, CSS, and JavaScript.
 
 <h4>Features:</h4>  
-Dynamic countdown functionality
-Customizable target date
-Styled with animations and modern design principles
+<ul><li>Dynamic countdown functionality</li> </ul>  
 <h4>Technologies Used:</h4>
-HTML
-CSS
+HTML,
+CSS and 
 JavaScript

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown</title>
+    <style>
+        .countdown-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+            /* background-color: lightblue; */
+            background-image: url("istockphoto-1399105128-612x612.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        }
+
+        .countdown-timer {
+            font-size: 1rem;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .countdown-label {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="countdown-container">
+        <div class="countdown-label">Until 2026</div><br>
+        <div class="countdown-timer" id="countdown"></div>
+        <br><b>Left</b>
+    </div>
+
+    <script>
+        const targetDate = new Date('2026-01-01T00:00:00');
+        function updateCountdown(){
+            const currentDate = new Date();
+            const difference = targetDate - currentDate;
+            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+            document.getElementById('countdown').innerHTML = `${days}days ${hours}hr ${minutes}min ${seconds}sec`;
+
+            setTimeout(updateCountdown, 1000) // 1 second
+          }  
+            updateCountdown();
+    </script>
+</body>
+</html>

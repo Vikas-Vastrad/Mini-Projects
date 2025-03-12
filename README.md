@@ -7,8 +7,8 @@ A visually appealing landing page for an e-commerce website built using HTML and
 
 <h4>Features:</h4>
 <ul>
-  <li>Responsive design for mobile and desktop views.</li>
-  <li>Simple and clean layout.</li>
+  <li>Responsive design for mobile and desktop views</li>
+  <li>Simple and clean layout</li>
 </ul>
 <h4>Technologies Used: </h4>
 HTML, 

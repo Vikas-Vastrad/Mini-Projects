@@ -3,7 +3,7 @@ This repository contains a collection of mini-projects developed to practice and
 Each project is built with a focus on clean code, responsive design, and practical functionality.
 # Projects Included
 <b><h2>1. E-Commerce Landing Page</h2></b>
-A visually appealing landing page for an e-commerce website built using HTML and CSS.
+A visually appealing landing page for an e-commerce website built using HTML and CSS
 
 <h4>Features:</h4>
 <ul>
